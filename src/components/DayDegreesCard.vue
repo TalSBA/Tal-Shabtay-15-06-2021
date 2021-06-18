@@ -1,14 +1,14 @@
 <template>
-  <b-col>
-    <b-card>
-      <b-card-title>{{ calcDay(day.Date) }}</b-card-title>
-      <b-card-img :src="imgSrc" :alt="this.day.Day.IconPhrase"></b-card-img>
-      <b-card-text>
-        {{ day.Temperature.Maximum.Value }}
-        <b-icon class="degrees-icon" icon="dot" aria-hidden="true"></b-icon>
-        {{ day.Temperature.Maximum.Unit }}
-      </b-card-text>
-    </b-card>
+  <b-col class="day-degrees">
+      <b-card class="animate__animated animate__fadeIn">
+        <b-card-title>{{ calcDay(day.Date) }}</b-card-title>
+        <b-card-img :src="imgSrc" :alt="this.day.Day.IconPhrase"></b-card-img>
+        <b-card-text>
+          {{ day.Temperature.Maximum.Value }}
+          <b-icon class="degrees-icon" icon="dot" aria-hidden="true"></b-icon>
+          {{ day.Temperature.Maximum.Unit }}
+        </b-card-text>
+      </b-card>
   </b-col>
 </template>
 
@@ -35,7 +35,7 @@ export default {
 .degrees-icon {
   vertical-align: top;
 }
-.card {
+/* .day-degrees .card {
   color: white;
   background-color: transparent;
   border: solid 1px white;
@@ -44,12 +44,11 @@ export default {
   border-radius: 50%;
   height: 180px;
   width: 180px;
-}
-
-
+} */
 
 .card:hover {
   box-shadow: 0 14px 28px rgba(255, 253, 253, 0.418),
     0 10px 10px rgba(0, 0, 0, 0.22);
 }
+
 </style>

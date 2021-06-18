@@ -1,22 +1,25 @@
 <template>
   <b-col class="favorite-container">
-    <b-card v-if="city && cityDetails" class="favorite-card">
-      <b-icon
-        class="favorite-icon"
-        id="favorite"
-        :icon="icon"
-        @click="handleFavorites"
-      ></b-icon>
-      <router-link to="/home" activeClass="active" tag="span">
-        <div @click="setSelected">
-          <b-card-title>{{ city.LocalizedName }}</b-card-title>
-          <b-card-text>
-            {{ cityDetails.Temperature.Metric.Value }}
-          </b-card-text>
-          <b-card-img :src="imgSrc" :alt="String(cityDetails.WeatherIcon)"></b-card-img>
-        </div>
-      </router-link>
-    </b-card>
+      <b-card v-if="city && cityDetails" class="favorite-card animate__animated animate__fadeIn">
+        <b-icon
+          class="favorite-icon"
+          id="favorite"
+          :icon="icon"
+          @click="handleFavorites"
+        ></b-icon>
+        <router-link :to="{ name: 'home' }" activeClass="active" tag="span">
+          <div @click="setSelected">
+            <b-card-title>{{ city.LocalizedName }}</b-card-title>
+            <b-card-text>
+              {{ cityDetails.Temperature.Metric.Value }}
+            </b-card-text>
+            <b-card-img
+              :src="imgSrc"
+              :alt="String(cityDetails.WeatherIcon)"
+            ></b-card-img>
+          </div>
+        </router-link>
+      </b-card>
   </b-col>
 </template>
 <script>

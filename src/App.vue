@@ -26,5 +26,16 @@ export default {
   background-size: cover;
   height: calc(100vh - 20px);
 }
+.App .card {
+  color: white;
+  background-color: transparent;
+  border: solid 1px white;
+  box-shadow: 0 1px 3px rgba(255, 253, 253, 0.418),
+    0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
+
 </style>
  
