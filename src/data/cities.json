@@ -1,0 +1,317 @@
+[
+    {
+        "Version": 1,
+        "Key": "215854",
+        "Type": "City",
+        "Rank": 31,
+        "LocalizedName": "Tel Aviv",
+        "Country": {
+            "ID": "IL",
+            "LocalizedName": "Israel"
+        },
+        "AdministrativeArea": {
+            "ID": "TA",
+            "LocalizedName": "Tel Aviv"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "226396",
+        "Type": "City",
+        "Rank": 10,
+        "LocalizedName": "Tokyo",
+        "Country": {
+            "ID": "JP",
+            "LocalizedName": "Japan"
+        },
+        "AdministrativeArea": {
+            "ID": "13",
+            "LocalizedName": "Tokyo"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "106770",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Taiyuan",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SX",
+            "LocalizedName": "Shanxi"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "106780",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Tianjin",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "TJ",
+            "LocalizedName": "Tianjin"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "58491",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Tongren",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GZ",
+            "LocalizedName": "Guizhou"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "102324",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Tangshan",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "HE",
+            "LocalizedName": "Hebei"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "59573",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Taizhou",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "JS",
+            "LocalizedName": "Jiangsu"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "60198",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Tongliao",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "NM",
+            "LocalizedName": "Inner Mongolia"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "106571",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Tai'an",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SD",
+            "LocalizedName": "Shandong"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "58055",
+        "Type": "City",
+        "Rank": 15,
+        "LocalizedName": "Tianshui",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GS",
+            "LocalizedName": "Gansu"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "2333653",
+        "Type": "City",
+        "Rank": 15,
+        "LocalizedName": "Taizhou",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "ZJ",
+            "LocalizedName": "Zhejiang"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "102255",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Guangzhou",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GD",
+            "LocalizedName": "Guangdong"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "102273",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Guiyang",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GZ",
+            "LocalizedName": "Guizhou"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "127047",
+        "Type": "City",
+        "Rank": 11,
+        "LocalizedName": "Giza",
+        "Country": {
+            "ID": "EG",
+            "LocalizedName": "Egypt"
+        },
+        "AdministrativeArea": {
+            "ID": "GZ",
+            "LocalizedName": "Giza"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "58354",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Guigang",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GX",
+            "LocalizedName": "Guangxi"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "58360",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Guilin",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "GX",
+            "LocalizedName": "Guangxi"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "59702",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Ganzhou",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "JX",
+            "LocalizedName": "Jiangxi"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "61034",
+        "Type": "City",
+        "Rank": 13,
+        "LocalizedName": "Guang'an",
+        "Country": {
+            "ID": "CN",
+            "LocalizedName": "China"
+        },
+        "AdministrativeArea": {
+            "ID": "SC",
+            "LocalizedName": "Sichuan"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "187765",
+        "Type": "City",
+        "Rank": 20,
+        "LocalizedName": "Guatemala City",
+        "Country": {
+            "ID": "GT",
+            "LocalizedName": "Guatemala"
+        },
+        "AdministrativeArea": {
+            "ID": "GU",
+            "LocalizedName": "Guatemala"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "328226",
+        "Type": "City",
+        "Rank": 21,
+        "LocalizedName": "Glasgow",
+        "Country": {
+            "ID": "GB",
+            "LocalizedName": "United Kingdom"
+        },
+        "AdministrativeArea": {
+            "ID": "GLG",
+            "LocalizedName": "Glasgow City"
+        }
+    },
+    {
+        "Version": 1,
+        "Key": "317880",
+        "Type": "City",
+        "Rank": 21,
+        "LocalizedName": "Gaziantep",
+        "Country": {
+            "ID": "TR",
+            "LocalizedName": "Turkey"
+        },
+        "AdministrativeArea": {
+            "ID": "27",
+            "LocalizedName": "Gaziantep"
+        }
+    }
+]
