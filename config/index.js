@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/weather-app-demo/',
+    assetsPublicPath: '/Tal-Shabtay-15-06-2021/',
 
     /**
      * Source Maps
