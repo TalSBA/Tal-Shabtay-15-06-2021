@@ -1,4 +1,4 @@
 module.exports = {
     /* ... */
-    publicPath: process.env.NODE_ENV === 'production' ? '/weather-app-demo/' : '/'
+    publicPath: process.env.NODE_ENV === 'production' ? '/Tal-Shabtay-15-06-2021/' : '/'
 }
