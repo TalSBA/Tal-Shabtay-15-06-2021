@@ -36,9 +36,6 @@ export default {
       favoritesPath: `${this.$route.path}/favorites`,
     };
   },
-  created() {
-    console.log("routes: ", this.$router)
-  },
 };
 </script>
 

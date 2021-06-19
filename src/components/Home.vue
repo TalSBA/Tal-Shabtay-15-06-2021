@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <search-bar
       :cities="citiesResults"
       @on-search="onSearchChanged"
@@ -31,6 +31,7 @@ export default {
       selectedCity: null,
       weatherDetailsResult: null,
       fiveDaysWeatherResult: null,
+      showModal: false,
     };
   },
   async created() {
@@ -53,14 +54,28 @@ export default {
   },
   methods: {
     async onSearchChanged(value) {
-      this.citiesResults = await getCities(value);
+      const result = await getCities(value);
+      if (result.error) {
+        this.$toast.top(`Something went wrong: ${result["message"]} , try again later.`);
+      } else {
+        this.citiesResults = result;
+      }
     },
     async getCity(cityResult) {
       this.citiesResults = null;
       this.selectedCity = cityResult;
-      console.log("result clicked", cityResult);
-      this.weatherDetailsResult = await getCityDetails(cityResult);
-      this.fiveDaysWeatherResult = await getFiveDaysWeather(cityResult.Key);
+      const detailsRes = await getCityDetails(cityResult);
+      const fiveDaysRes = await getFiveDaysWeather(cityResult.Key);
+      if (detailsRes.error) {
+        this.$toast.top(`Something went wrong: ${detailsRes["message"]} , try again later.`);
+      } else {
+        this.weatherDetailsResult = detailsRes;
+      }
+      if (fiveDaysRes.error) {
+        this.$toast.top(`Something went wrong: ${fiveDaysRes["message"]} , try again later.`);
+      } else {
+        this.fiveDaysWeatherResult = fiveDaysRes;
+      }
       this.$store.dispatch("setSelectedFavorite", null);
     },
   },
@@ -68,5 +83,10 @@ export default {
 </script>
 
 <style>
-
+.lx-toast {
+  background-color: rgba(217, 83, 79, 0.7);
+}
+.lx-toast.lx-toast-top {
+  top: 12px;
+}
 </style>

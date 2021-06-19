@@ -24,7 +24,9 @@ export default {
   background-image: url("./assets/images.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 20px);
+  background-position: center;
+  min-height: calc(100vh - 20px);
+  max-height: 100%;
 }
 .App .card {
   color: white;
@@ -36,6 +38,5 @@ export default {
   height: 180px;
   width: 180px;
 }
-
 </style>
  

@@ -36,7 +36,6 @@ export default {
   },
   async created() {
     this.cityDetails = await getCityDetails(this.city);
-    console.log("city card ", this.city);
     this.imgSrc = require("../assets/weather/" +
       this.cityDetails.WeatherIcon +
       ".png");
